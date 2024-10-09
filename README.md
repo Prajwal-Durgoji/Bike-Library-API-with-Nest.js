@@ -44,42 +44,41 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+Bike API
+A RESTful API for managing bikes built with NestJS.
 
-## Run tests
+API Endpoints
+GET	/bikes	Get all bikes
+POST	/bikes	Create a new bike
+PUT	/bikes/:id	Update a bike
+DELETE	/bikes/:id	Delete a bike
 
-```bash
-# unit tests
-$ npm run test
+View Swagger API documentation:
+http://localhost:3000/api
 
-# e2e tests
-$ npm run test:e2e
+POST
+![image](https://github.com/user-attachments/assets/d53899df-b2ff-4eaa-b0e5-b5838774a8b9)
+![image](https://github.com/user-attachments/assets/7de8f5ee-affd-4bba-8d9f-f03b458e62e6)
 
-# test coverage
-$ npm run test:cov
-```
+GET
+![image](https://github.com/user-attachments/assets/7a44cc1a-afef-4852-adfd-5be0cdb59a91)
+![image](https://github.com/user-attachments/assets/533eac0d-44fe-44fb-a21c-58fc2a5267c9)
 
-## Resources
+UPDATE
+![image](https://github.com/user-attachments/assets/797d5a3c-82f0-4a5a-8a94-7c1f95eaceae)
+![image](https://github.com/user-attachments/assets/b30b8880-8ea5-4923-8728-aa155217552d)
 
-Check out a few resources that may come in handy when working with NestJS:
+DELETE
+![image](https://github.com/user-attachments/assets/23399109-7c43-4832-8d19-71bc9450c926)
+![image](https://github.com/user-attachments/assets/ab63a0a8-f40b-42b7-ac7b-647c7c89ba5b)
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+Tech Stack 
+Next.js
+RestAPI
+MySQL
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## License
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
