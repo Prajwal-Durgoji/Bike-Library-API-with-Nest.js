@@ -9,6 +9,7 @@ import { BikeService } from './services/bike.service';
 
 @Module({
     imports: [
+      // TypeORM helps connect your TypeScript application to a database.
       TypeOrmModule.forRoot({
         type: 'mysql',
         host: 'localhost',
